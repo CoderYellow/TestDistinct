@@ -1,0 +1,27 @@
+# Mock interview checklist
+
+- [ ] HashMap vs ConcurrentHashMap; when is computeIfAbsent atomic?
+- [ ] volatile vs synchronized and happens-before.
+- [ ] Thread-pool exhaustion: diagnosis and mitigation.
+- [ ] JVM heap vs off-heap memory and OOM troubleshooting.
+- [ ] Spring @Transactional self-invocation and propagation.
+- [ ] MVC vs WebFlux; blocking calls on event loops.
+- [ ] Reactor backpressure and flatMap concurrency.
+- [ ] Kafka offset commit vs application checkpoint.
+- [ ] Kafka at-least-once vs exactly-once boundaries.
+- [ ] Consumer-group rebalance during processing.
+- [ ] Message replay and idempotent sinks.
+- [ ] Disruptor vs BlockingQueue; crash durability.
+- [ ] Unknown FIX downstream acknowledgement.
+- [ ] SQL indexes and execution plans.
+- [ ] Isolation levels and deadlocks.
+- [ ] Keyset vs offset pagination.
+- [ ] Transactional outbox and duplicate dispatch.
+- [ ] Design a reliable order gateway.
+- [ ] Explain FX Gateway personal contribution.
+- [ ] Explain DBS Spark/Kafka recovery.
+- [ ] Describe a real production incident.
+- [ ] Explain recent backend development despite SRE responsibilities.
+- [ ] Why UOB and Singapore?
+- [ ] Why leave your current role?
+- [ ] Ask about on-call, project assignment and technical stack.
