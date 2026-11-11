@@ -28,3 +28,9 @@ Do not commit your CV, phone number, bank internal designs, credentials or propr
 - [CV project and behavioural sample answers](answers-experience-behaviour.md)
 
 Answers are concise interview-ready explanations, not a substitute for recalling your actual implementation. For CV stories, verify facts before repeating them.
+
+## Spoken self-introductions
+
+- [3-minute self-introduction](self-introduction-3-min.md)
+- [5-minute self-introduction](self-introduction-5-min.md)
+- [Delivery guide and transition phrases](introduction-delivery-guide.md)
