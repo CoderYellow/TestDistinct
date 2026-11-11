@@ -19,3 +19,12 @@ Private study notes for an iSoftStone / UOB Singapore Java backend interview (No
 - [Mock interview](mock-interview.md)
 
 Do not commit your CV, phone number, bank internal designs, credentials or proprietary code. Examples here are generic study designs, not descriptions of confidential systems.
+
+## Answer keys (start here)
+
+- [Java and Spring model answers](answers-java-spring.md)
+- [Kafka / MQ / FIX model answers](answers-messaging.md)
+- [SQL and system-design model answers](answers-database-design.md)
+- [CV project and behavioural sample answers](answers-experience-behaviour.md)
+
+Answers are concise interview-ready explanations, not a substitute for recalling your actual implementation. For CV stories, verify facts before repeating them.
