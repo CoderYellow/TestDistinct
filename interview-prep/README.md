@@ -34,3 +34,10 @@ Answers are concise interview-ready explanations, not a substitute for recalling
 - [3-minute self-introduction](self-introduction-3-min.md)
 - [5-minute self-introduction](self-introduction-5-min.md)
 - [Delivery guide and transition phrases](introduction-delivery-guide.md)
+
+## DBS-first interview narrative (updated)
+
+- [DBS ownership progression: five-person team → sole maintainer → Spark development](dbs-ownership-story.md)
+- [Updated DBS-first 3-minute introduction](self-introduction-3-min.md)
+- [Updated DBS-first 5-minute introduction](self-introduction-5-min.md)
+- [Updated experience stories](experience-stories.md)
