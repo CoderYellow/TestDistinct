@@ -1,91 +1,39 @@
-# Self-introduction — 5-minute version
+# Self-introduction — 5-minute DBS-first version
 
-**Context:** iSoftStone / UOB Singapore Java backend interview. Use when asked to walk through your CV. Estimated around five minutes depending on pace.
+Hi, I'm Jack. It's a pleasure to meet you, and thank you for the opportunity.
 
-Hi, I'm Jack. It's a pleasure to meet you, and thank you for giving me the opportunity to introduce myself.
+I'm a backend software engineer with over seven years of professional experience, primarily in Java, Spring Boot, distributed systems and enterprise backend development. My career has covered logistics, cloud monitoring and banking. Over the last few years, I've mainly worked on banking technology projects for DBS and HSBC.
 
-I'm a backend software engineer with over seven years of professional experience. My main technical background is in Java, Spring Boot, distributed systems, and enterprise backend development.
+I'd like to start with DBS, where I've spent roughly three years through NCS, because that experience shows how my responsibilities evolved from core development to independent maintenance and then into data engineering.
 
-I've worked in several industries, including logistics, cloud computing, and banking. What connects these experiences is that I've generally been working on backend systems involving integration, asynchronous processing, data pipelines, and production reliability.
+During my first year, I worked on an SRE automation project as part of a five-person team. I was one of the main developers and became deeply familiar with the application's backend implementation and operational workflows. We developed Kotlin, Spring Boot and WebFlux services to consolidate operational capabilities that had previously been handled through separate Python scripts. These services supported diagnostics and operational tasks across technologies such as Cloudera, HDFS, YARN, Hive and S3.
 
-I'd like to briefly walk you through my career, starting with my most recent role.
+I found this work interesting because it required understanding existing processes and designing reusable backend interfaces, rather than simply building isolated features.
 
-**Currently, I'm working at NCS, supporting a centralised big data platform for DBS Bank.**
+In my second year, the team was gradually reduced. Because I had been heavily involved in development and knew the system particularly well, I became the sole engineer responsible for its ongoing maintenance.
 
-The platform handles data across several layers, including metadata, data lake, data warehouse, and datamart.
+That was an important transition for me. Instead of concentrating only on implementation, I had to think about maintainability and the day-to-day operation of an existing application. It strengthened my sense of ownership and my ability to work independently. I would describe myself as the sole maintainer, rather than claiming a formal team-lead position.
 
-My responsibilities cover backend development, data processing, and operational automation.
+By my third year, the automation application had become relatively mature and its routine maintenance workload had decreased. My manager therefore gave me additional responsibilities in Spark-based data development. I worked on batch processing applications consuming Kafka data, including checkpoint and resume support for recoverable processing. Alongside this, my experience included Jenkins pipelines and deployment automation using Helmfile, Terraform, OpenShift and GCP.
 
-On the backend side, I developed tools using Kotlin, Spring Boot, and WebFlux.
+So my DBS experience has been a combination of hands-on backend development, operational responsibility and data engineering. It also helped me become familiar with the engineering discipline involved in supporting a Singapore banking technology environment.
 
-Previously, many operational tasks were handled through separate Python scripts. I worked on consolidating these scripts into backend services that could perform diagnostics and operational tasks across technologies such as Cloudera, HDFS, YARN, Hive, and S3.
+Before NCS, I worked at TEKsystems on HSBC's foreign exchange order management system. This was a more directly Java-focused backend development role.
 
-This work gave me practical experience in understanding existing operational processes, defining service interfaces, and building reusable backend components.
+One of the components I worked on was an FX Gateway integrating orders arriving through IBM MQ, SFTP and REST APIs. The gateway normalised different upstream message formats into FIX messages for downstream processing. Because financial orders need reliable handling, we persisted raw inbound messages before processing them asynchronously, reducing the risk of losing accepted data during processing failures.
 
-Another part of my role involved developing Spark applications that consume data from Kafka in batches.
+I also worked with Disruptor for in-process event handling, Spring WebFlux for reactive backend components, and SSE/WebSocket for asynchronous user updates. That experience strengthened my understanding of integration protocols, event-driven systems and reliability considerations in financial applications.
 
-One of the important requirements was recoverability. These applications needed checkpoint and resume capabilities so that processing could continue after failures rather than always starting from scratch.
+Before HSBC, I worked at Chinasoft International on Huawei Cloud's monitoring platform. I developed Flink jobs consuming Kafka streams of traces, logs and metrics for cleaning, enrichment, alerting and persistence. I also helped refactor a tightly coupled alerting module into more modular contracts, including extension mechanisms such as listeners, filters and notification channels.
 
-I also contributed to deployment automation using Jenkins, Helmfile, and Terraform, with applications deployed to OpenShift and Google Cloud environments.
+I started my career at Neusoft, working on logistics systems such as warehouse management, transportation management and order management. I participated in moving legacy applications towards Spring Boot and Spring Cloud microservices. I also worked on code generation with FreeMarker, authentication integration with Keycloak, and TCP-based terminal integration using Netty.
 
-Working on this platform has helped me develop a broader understanding of production systems, particularly how applications interact with infrastructure and how failures can affect data processing.
+Looking across these roles, I would highlight three strengths. First, hands-on Java and Spring backend development. Second, distributed and asynchronous systems, including messaging and data processing. Third, production engineering and ownership: I care about how systems are maintained, diagnosed and recovered, not just how features are implemented.
 
-**Before NCS, I worked at TEKsystems on HSBC's foreign exchange order management system.**
+For my next step, I'd like to continue focusing on Java backend engineering in banking. My experience with DBS and HSBC has given me relevant technical and operational context, and I believe I could contribute effectively to a UOB engineering team.
 
-This role was primarily focused on Java backend development.
-
-One of the major components I worked on was an FX Gateway, which was responsible for integrating orders from different upstream systems.
-
-These systems communicated through several protocols, including IBM MQ, SFTP, and REST APIs.
-
-Our gateway needed to receive these different message formats, normalise them, and convert them into FIX messages for downstream processing.
-
-One of the challenges in this type of system is ensuring that incoming orders are handled reliably, especially when processing involves multiple asynchronous stages.
-
-In our implementation, raw incoming messages were persisted before being processed asynchronously. This helped reduce the risk of losing data if a failure occurred during processing.
-
-I also worked with Disruptor for in-process event handling and Spring WebFlux for reactive backend development.
-
-For user-facing updates, we supported asynchronous communication through Server-Sent Events and WebSocket.
-
-This experience strengthened my understanding of message-driven architecture, protocol integration, and the importance of reliability in financial systems.
-
-**Before HSBC, I worked at Chinasoft International on a monitoring platform for Huawei Cloud.**
-
-The platform processed operational data such as traces, logs, and metrics collected from different systems.
-
-I developed Flink jobs that consumed data from Kafka and performed operations such as cleaning, enrichment, alerting, and persistence.
-
-I also participated in refactoring an alerting module that had become highly coupled.
-
-The goal was to separate core contracts from business-specific implementations, allowing different teams to extend the system through mechanisms such as event listeners, filters, and notification channels.
-
-This experience helped me better understand modular design and extensibility in large systems.
-
-**I started my professional career at Neusoft, working on logistics and enterprise management systems.**
-
-These included warehouse management, transportation management, and order management applications.
-
-A major part of my work involved migrating legacy systems towards Spring Boot and Spring Cloud microservices.
-
-I also developed a code generation tool using FreeMarker, worked on authentication integration using Keycloak, and implemented a TCP-based integration component using Netty.
-
-These projects gave me a solid foundation in Java backend development, service integration, and maintaining enterprise applications.
-
-**If I were to summarise my technical strengths, I would highlight three areas.**
-
-First, backend development with Java, Spring Boot, and related frameworks.
-
-Second, distributed and asynchronous systems, including Kafka, message queues, and data processing frameworks.
-
-And third, production engineering, including troubleshooting, deployment automation, and reliability.
-
-I believe this combination is valuable because I don't just focus on implementing application features. I also try to understand how the system will behave under failures, how it can be maintained, and how it can be operated reliably.
-
-**As for my next career step, I'd like to continue developing my expertise in Java backend engineering, particularly in the banking and financial services sector.**
-
-Having already worked on projects for HSBC and DBS, I'm familiar with the engineering discipline required in banking environments, and I believe that experience would help me contribute effectively to a team at UOB.
-
-That's an overview of my background. I'd be happy to discuss any of these projects in more detail.
+That's an overview of my background. I'd be happy to go deeper into any of these projects.
 
 Thank you.
+
+*Time yourself at your normal speaking pace. Keep client-internal details confidential and describe only work you personally performed.*
